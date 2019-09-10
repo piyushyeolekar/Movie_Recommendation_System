@@ -7,8 +7,8 @@ import seaborn as sns
 # Get the data 
 
 column_names = ['user_id', 'item_id', 'rating', 'timestamp'] 
-path = '../demo/file.tsv'
-df = pd.read_csv(path, sep='\t', names=column_names) 
+'../demo/file.tsv'
+df = pd.read_csv('../demo/file.tsv', sep='\t', names=column_names) 
   
 # Check the head of the data 
 
